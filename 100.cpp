@@ -1,3 +1,6 @@
+/*
+    3n+1 問題
+*/
 #include <algorithm>
 #include <iostream>
 
