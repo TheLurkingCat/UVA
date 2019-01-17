@@ -59,6 +59,5 @@ int main() {
             cout << " LOST";
         cout << "\n";
     }
-
     return 0;
 }

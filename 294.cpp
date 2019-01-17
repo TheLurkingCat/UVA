@@ -80,4 +80,5 @@ int main() {
         }
         cout << "Between " << x << " and " << y << ", " << ans_occur << " has a maximum of " << ans << " divisors.\n";
     }
+    return 0;
 }

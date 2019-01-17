@@ -34,6 +34,7 @@ int main() {
         }
     }
     cout << "The 1500'th ugly number is " << ith_ugly_number << ".\n";
+    return 0;
 }
 
 /*
