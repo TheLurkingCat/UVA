@@ -1,3 +1,7 @@
+/*
+    醜數
+    時間複雜度: O(1)
+*/
 #include <iostream>
 #include <queue>
 #include <unordered_map>
