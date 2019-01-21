@@ -20,7 +20,7 @@ void DFS(int parent, int current) {
 
     int child = 0, i;
     bool is_articulation_vertex = false;
-    for (int j : adjacency_list[current])
+    for (const int& j : adjacency_list[current])
         if (j != parent) {
             if (visit_time[j]) {
                 lowest_visit_time[current] = min(lowest_visit_time[current], visit_time[j]);         // 這點之前看過了: back edge
@@ -48,7 +48,7 @@ inline void initial() {
     string str;
     N++;
 
-    for (vector<int>& row : adjacency_list)
+    for (auto&& row : adjacency_list)
         row.clear();
     fill(lowest_visit_time.begin(), lowest_visit_time.end(), 0);
     fill(visit_time.begin(), visit_time.end(), 0);

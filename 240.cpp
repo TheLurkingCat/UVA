@@ -59,7 +59,7 @@ int main() {
                 build_huffman_tree.pop();
                 i--;
                 // C++11 range based，[PYTHON] for x in now.characters:
-                for (char c : now.characters) {
+                for (const char &c : now.characters) {
                     code[c] += number[j];
                     new_combination.characters.insert(c);  // 新編號加入舊編號，注意: 這裡用 set 維持字典序由小到大
                 }

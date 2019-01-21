@@ -18,7 +18,7 @@ vector<bool> visited(2000);
 
 void DFS(int x) {
     // 隨便繞圈圈
-    for (pair<int, int> edge : adjacency_list[x])
+    for (const pair<int, int> &edge : adjacency_list[x])
         if (!visited[edge.second]) {
             visited[edge.second] = true;
             DFS(edge.first);
@@ -35,7 +35,7 @@ int main() {
     while (cin >> x >> y && x) {
         // 建立相鄰表
         start_point = min(x, y);
-        for (vector<pair<int, int>> &edges : adjacency_list)
+        for (auto &&edges : adjacency_list)
             edges.clear();
         cin >> z;
         adjacency_list[x].push_back(make_pair(y, z));
@@ -48,14 +48,14 @@ int main() {
 
         odd_edges = 0;
         // 一筆畫不能有頂點有奇數邊(或2個奇數邊)
-        for (vector<pair<int, int>> edges : adjacency_list)
+        for (const vector<pair<int, int>> &edges : adjacency_list)
             if (edges.size() & 1)
                 odd_edges++;
 
         if (odd_edges != 0)
             cout << "Round trip does not exist.\n\n";
         else {
-            for (vector<pair<int, int>> &edges : adjacency_list)
+            for (auto &&edges : adjacency_list)
                 sort(edges.begin(), edges.end(), compare);  //街道編號要先排序
 
             path.clear();
