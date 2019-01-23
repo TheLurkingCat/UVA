@@ -1,5 +1,6 @@
 /*
     質因數分解
+    時間複雜度: O(NlogN)
 */
 #include <iostream>
 

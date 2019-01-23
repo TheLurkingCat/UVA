@@ -1,6 +1,6 @@
 /*
     R元的霍夫曼編碼
-    時間複雜度: O(RN)
+    時間複雜度: O(N)
 */
 #include <algorithm>
 #include <iomanip>

@@ -1,6 +1,6 @@
 /*
     連結串列暴力解
-    時間複雜度: 應該是O(N)吧
+    時間複雜度: O(N)
 */
 #include <cctype>
 #include <iostream>

@@ -1,6 +1,6 @@
 /*
     計算幾何
-    時間複雜度: O(N) (有N個矩形)
+    時間複雜度: O(N)
 */
 #include <iostream>
 #include <vector>

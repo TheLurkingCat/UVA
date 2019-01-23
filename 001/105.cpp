@@ -1,6 +1,6 @@
 /*
     天際線問題
-    時間複雜度: O(n)
+    時間複雜度: O(N)
 */
 #include <algorithm>
 #include <iostream>

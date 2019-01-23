@@ -1,6 +1,6 @@
 /*
     找零錢問題
-    時間複雜度: O(MN) (M種幣值，最大輸入N)
+    時間複雜度: O(N)
 */
 #include <iomanip>
 #include <iostream>

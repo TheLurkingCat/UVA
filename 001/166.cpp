@@ -1,6 +1,6 @@
 /*
     找零錢問題的變種
-    時間複雜度: O(MN^2) (M種幣值)
+    時間複雜度: O(N^2)
 */
 #include <algorithm>
 #include <cstring>

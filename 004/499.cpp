@@ -1,6 +1,6 @@
 /*
     計數器
-    時間複雜度: O(N) (一行有N個字)
+    時間複雜度: O(N)
 */
 #include <algorithm>
 #include <cctype>

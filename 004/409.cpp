@@ -1,6 +1,6 @@
 /*
     字串比對
-    時間複雜度: O((K+E)N) (N是字串長度，E是字串數目，K是關鍵字數)
+    時間複雜度: O(N^2)
 */
 #include <algorithm>
 #include <iostream>

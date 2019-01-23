@@ -1,6 +1,6 @@
 /*
     字串最小週期
-    時間複雜度(naive): O(N^2) (N是字串長度)
+    時間複雜度(naive): O(N^2)
     時間複雜度(KMP)  : O(N)
 */
 #include <iostream>

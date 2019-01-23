@@ -1,6 +1,6 @@
 /*
     陣列轉向
-    時間複雜度: O(MN) (M筆輸入，最多字的有N個字)
+    時間複雜度: O(N)
 */
 #include <algorithm>
 #include <iostream>

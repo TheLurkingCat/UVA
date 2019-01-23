@@ -1,6 +1,6 @@
 /*
     最小子矩陣問題(升維的最大連續和問題)
-    時間複雜度: O(n^3)
+    時間複雜度: O(N^3)
 */
 #include <algorithm>
 #include <iostream>
