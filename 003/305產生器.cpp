@@ -1,5 +1,6 @@
 /*
     建305的Code的Code
+    時間複雜度: O(1)
 */
 #include <iostream>
 
