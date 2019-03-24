@@ -14,7 +14,6 @@ int main() {
     long long ith_ugly_number;
     // 紀錄是否已經放入priority_queue
     unordered_map<long long, bool> seen;
-    // 定義priority_queue，使用vector實現並從最小先取出
     priority_queue<long long, vector<long long>, greater<long long>> ugly_numbers;
 
     ugly_numbers.push(1);

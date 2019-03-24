@@ -1,7 +1,6 @@
 /*
     模擬題，照做就好
 */
-#include <algorithm>
 #include <iostream>
 
 using namespace std;
