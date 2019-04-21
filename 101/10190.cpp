@@ -1,3 +1,6 @@
+/*
+    等比級數
+*/
 #include <iostream>
 #include <vector>
 
