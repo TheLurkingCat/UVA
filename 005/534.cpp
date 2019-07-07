@@ -27,7 +27,7 @@ int main() {
             for (j = 0; j < i; j++)
                 dist[j][i] = dist[i][j] = hypot(points[i].first - points[j].first, points[i].second - points[j].second);
 
-        // 弗洛伊德演算法 (Floyd-Warshall)
+        // Floyd-Warshall Algorithm
         for (k = 0; k < n; k++)
             for (i = 0; i < n; i++)
                 for (j = 0; j < n; j++)
